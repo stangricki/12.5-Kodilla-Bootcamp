@@ -1,10 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Great+Vibes|Roboto|Spectral+SC');
 
+*{
+	/*outline: 1px solid red;*/
+	box-sizing: border-box;
+	text-shadow: 0 0 2px #555;
+}
+
 body {
 	text-align: center;
 	background-color: #55ACEE;
 	color: #FFF;
-	
+	margin: 0;
+}
+
+main {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 h1 {
@@ -39,7 +53,7 @@ h1 {
 	box-shadow: 0 0 5px 1px #FFF;
 }
 .trigger {
-	margin: 80px auto 20px;
+	margin: 40px auto 20px;
 	cursor: pointer;
 }
 
